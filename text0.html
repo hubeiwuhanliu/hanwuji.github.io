@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function welcome_to_schele () {
+        alert("Welcome to Schele!");
+        confirm("yes");
+        let name = prompt("Your name is: ")
+        let age = prompt("Your age: ")
+        let gender = prompt("Your gender is: ")
+        document.write(name, age, gender);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="press me" onclick="alert('Hello World from JavaScript!');">
+    </form>
+    <script type="text/javascript">
+        var a = 30
+        a++
+        document.write(a + "<br/>"+ ++a)
+        if (a > 30)
+          alert("too expensive")
+        else if(a < 30)
+          alert("cheap")
+        else
+          alert("good")
+          var x = 0;
+          var sum = 0
+          for (x=1; x<101; x++) {
+          sum += x
+        }  
+        document.write("<br/>"+sum)
+    </script>
+</body>
+</html>
